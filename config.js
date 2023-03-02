@@ -4,7 +4,7 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://xacilir578:@67Wp.bNHCT43AC@mo.kq9jixo.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'sam@secktor.live'
 global.github = 'https://github.com/SamPandey001/Secktor-Md'
@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.c
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
   ownername:process.env.OWNER_NAME || 'SamPandey001',
-  sessionName: process.env.SESSION_ID || 'PUT-HERE',
+  sessionName: process.env.SESSION_ID || 'THhteG52ZzI=',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
   packname: process.env.PACK_INFO.split(";")[1] || 'Name',
@@ -34,7 +34,7 @@ module.exports = {
   antilinkaction: process.env.ANTILINK_ACTION || 'remove',
   BRANCH: 'main',
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || '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',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
   LANG: process.env.THEME|| 'SECKTOR',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
